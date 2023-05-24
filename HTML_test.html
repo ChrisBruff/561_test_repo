@@ -1,10 +1,20 @@
 <!DOCTPYE html>
 <html>
 <head>
+        <title> Das Page </title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\pc\561_test_repo\ow.jpg">
 <style>
 body {background-color: #F0EAD6;}
 h1  {color: green;}
 p   {color: black;}
+
+.thing {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
 </style>
 </head>
 <body>
@@ -18,23 +28,50 @@ p   {color: black;}
 
 <br>
 
-<img 
+<img style="text-align:center;"
     src="C:\Users\pc\561_test_repo\pain.jpg" 
     alt="A Group of Ring-tailed Lemurs" 
+    width ="175"
+    height="243"
 />
 
 <br>
 
 <p> <b> Now we get </b> </p> <h3 style="color:red; font-size:60px;"> <strong> <i> Fancy </i> </strong> </h3>
 
+<h1>
+    Using some classes in Javascript
+</h1>
+
+<p>
+    Click the button
+</p>
+
+<button onclick="Func()">Hides things</button>
+
+<h2 class="thing"> Woah </h2>
+<p> Did you click it? </p>
+
+<script>
+    function Func(){
+        var x = document.getElementsByClassName("thing");
+        for (var i = 0; i < x.length; i++){
+            x[i].style.display = "none";
+        }
+
+
+    }
+</script>
 <pre style="color:blue; font-size:15px;">
-this line
+
+<div class="thing">
+    <h3>This</h3>
+    <p>Line</p>
+</div>
 that line
 here line
 there 
 line
-
-now a quick branch test
 </pre>
 
 
