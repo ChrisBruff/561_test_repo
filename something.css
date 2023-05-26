@@ -6,6 +6,12 @@
 h1  {color: rgb(128, 0, 83);}
 p   {color: black;}
 
+.center {
+
+    text-align: center;
+
+}
+
 .thing {
     background-color: tomato;
     color: white;
@@ -35,7 +41,7 @@ p   {color: black;}
     margin: 50px;
   }
  
-  a:link, a:visited {
+  a:link {
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
@@ -56,9 +62,18 @@ p   {color: black;}
   width: 50%;
   }
 
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-  .tryDiv {
+div li {
+    display: inline;
+}
 
 
 
-  }
+
+
+
