@@ -12,11 +12,18 @@ p   {color: black;}
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+
+    border-style: outset;
+    border-width: 10px;
+
   }
 
   #link1 {
     text-align: center;
     color: black;
+    border-style: solid;
+    border-color: black;
+    margin: 50px;
   }
  
   a:link, a:visited {
@@ -26,12 +33,13 @@ p   {color: black;}
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
   }
   
   a:hover, a:active {
     background-color: red;
   }
-  
+
   img {
   display: block;
   margin-left: auto;
